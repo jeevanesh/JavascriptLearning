@@ -1,6 +1,6 @@
 // Q6. Write a function that returns the number of vowels in a string. 
 
-console.log("Vowels are: " + countVowels("Hello Javascript"));
+console.log("Vowels are: " + countVowels("Hello Javascript"));  // Vowels are: 5
 
 function countVowels(str){
     const vowels = ["a","e","i","o","u"];

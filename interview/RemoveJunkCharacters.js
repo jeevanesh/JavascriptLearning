@@ -1,4 +1,4 @@
-var str = "abc's test#s";
-str.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g,'_');
+let str = "abc's test#s^%&^*&";
+let result = str.replace(/[^\w\s]/g, "");
 
-console.log(str);
+console.log(result);

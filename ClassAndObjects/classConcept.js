@@ -23,8 +23,19 @@ c1.refuel();
 
 const c2 = new Car("Honda", 20, "Civic", "White");
 
+console.log("--------------------");
+
 console.log(c2.name);
 console.log(c2.price);
 console.log(c2.model);
 console.log(c2.color);
 c2.refuel();
+
+const c3 = new Car("Audi");
+
+console.log("--------------------");
+
+console.log(c3.name);
+console.log(c3.price);
+console.log(c3.model);
+console.log(c3.color);
